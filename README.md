@@ -29,5 +29,5 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 Dream PG is licensed under the MIT License.
 
 **Acknowledgments**
-Darshan Panchal and Manish Choudhary for designing and developing the project
+Darshan Panchal and Manish Chaudhary for designing and developing the project
 DR. JINAL TAILOR for guiding and mentoring the project
