@@ -47,63 +47,36 @@ Open your browser and navigate to http://localhost:3000 to see the project in ac
 The project follows a modular architecture, with separate folders for components, pages, public assets, and tests. Here's a brief overview of the project structure:
 
 ### Folders
-Dream-PG public
-  ==== 
-  a2.jpg
-  a3.jpeg
-  vercel.svg
+public: 📂 Contains static assets that are served directly by the web server.
 
-src
-  ====
-  app
-  api
-  admin-api
-    ====
-    dpg
-      ====
-      [id]
-        ====
-        route.js
-  user
-    ====
-    profile.js
+src: 📂 Contains the application code, including components, pages, and APIs.
 
-components
-  ====
-  Footer.jsx
-  Header.jsx
+app: 📂 Contains the application logic, including components, pages, and APIs.
 
-models
-  ====
-  Booking.jsx
-  Multi.jsx
+api: 📂 Contains the API routes for the application.
 
-pages
-  ====
-  About
-    ====
-    page.jsx
-  admin
-    ====
-    Navbar.jsx
+admin-api: 📂 Contains the admin API routes.
 
-config
-  ====
-  mongoose.jsx
+component: 📂 Contains reusable UI components used throughout the project.
 
-styles
-  ====
-  Categories.module.css
-  findpg.module.css
+models: 📂 Contains the data models used in the application.
 
-.env.local
-.eslintrc.json
-.gitignore
-jsconfig.json
-next.config.mjs
-package-lock.json
-package.json
-README.md
+pages: 📂 Contains the Next.js pages that make up the application.
+
+admin: 👮 Contains the pages and components that make up the admin panel.
+
+multi: 📂 Contains the multi-form submission feature.
+
+Allforms: 📂 Imports and displays all forms.
+
+user: 👥 Contains the pages and components that make up the user panel.
+
+config: 📂 Contains configuration files for the application.
+
+styles: 📂 Contains CSS styles for the application.
+
+.env.local: 📜 Environment variables for the application.
+
 
 **User and Admin Panels**
 -------------------------
