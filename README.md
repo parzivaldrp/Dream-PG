@@ -50,7 +50,7 @@ The project follows a modular architecture, with separate folders for components
 
 ```markdown
 * Root Folder
-  |-- public: 📂 Contains static assets that are served directly by the web server.
+  |-- * public: 📂 Contains static assets that are served directly by the web server.
   |-- src: 📂 Contains the application code, including components, pages, and APIs.
     |-- app: 📂 Contains the application logic, including components, pages, and APIs.
     |-- api: 📂 Contains the API routes for the application.
