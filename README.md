@@ -49,33 +49,31 @@ The project follows a modular architecture, with separate folders for components
 ### Folders
 public: 📂 Contains static assets that are served directly by the web server.
 
-src: 📂 Contains the application code, including components, pages, and APIs.
+  src: 📂 Contains the application code, including components, pages, and APIs.
 
-app: 📂 Contains the application logic, including components, pages, and APIs.
+    app: 📂 Contains the application logic, including components, pages, and APIs.
 
-api: 📂 Contains the API routes for the application.
+      api: 📂 Contains the API routes for the application.
 
-admin-api: 📂 Contains the admin API routes.
+        admin-api: 📂 Contains the admin API routes.
 
-component: 📂 Contains reusable UI components used throughout the project.
+    component: 📂 Contains reusable UI components used throughout the project.
 
-models: 📂 Contains the data models used in the application.
+    models: 📂 Contains the data models used in the application.
 
-pages: 📂 Contains the Next.js pages that make up the application.
+    pages: 📂 Contains the Next.js pages that make up the application.
 
-admin: 👮 Contains the pages and components that make up the admin panel.
+      admin: 👮 Contains the pages and components that make up the admin panel.
 
-multi: 📂 Contains the multi-form submission feature.
+        multi: 📂 Contains the multi-form submission feature.
 
-Allforms: 📂 Imports and displays all forms.
+          Allforms: 📂 Imports and displays all forms.
 
-user: 👥 Contains the pages and components that make up the user panel.
+    config: 📂 Contains configuration files for the application.
 
-config: 📂 Contains configuration files for the application.
+  styles: 📂 Contains CSS styles for the application.
 
-styles: 📂 Contains CSS styles for the application.
-
-.env.local: 📜 Environment variables for the application.
+  .env.local: 📜 Environment variables for the application.
 
 
 **User and Admin Panels**
