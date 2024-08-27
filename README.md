@@ -47,54 +47,43 @@ Open your browser and navigate to http://localhost:3000 to see the project in ac
 The project follows a modular architecture, with separate folders for components, pages, public assets, and tests. Here's a brief overview of the project structure:
 
 ### Folders
-Dream-PG
-public 📂
-uploads
-a2.jpg
-a3.jpeg
-... (static images)
-vercel.svg (static SVG file)
-src 📂
-app 📂
-api 📂
-admin-api 📂
-... (admin API routes)
-dpg
-[id]
-route.js (route for dpg)
-...
-user 👥
-profile.js (user profile page)
-component 📂
-Footer.jsx (footer component)
-Header.jsx (header component)
-... (reusable UI components)
-models 📂
-Booking.jsx (booking model)
-Multi.jsx (multi-form model)
-... (data models)
-pages 📂
-About
-page.jsx (about page)
-admin
-component 📂
-Navbar.jsx (admin navbar component)
-...
-...
-config 📂
-mongoose.jsx (mongoose configuration)
-styles 📂
-Categories.module.css (categories CSS module)
-findpg.module.css (find PG CSS module)
-... (CSS styles)
-.env.local 📜 (environment variables)
-.eslintrc.json 📜 (ESLint configuration)
-.gitignore 📜 (Git ignore file)
-jsconfig.json 📜 (JavaScript configuration)
-next.config.mjs 📜 (Next.js configuration)
-package-lock.json 📜 (package lock file)
-package.json 📜 (package file)
-README.md 📜 (this README file)
+Dream-PG public
+├── a2.jpg
+├── a3.jpeg
+├── vercel.svg
+src
+├── app
+├── api
+├── admin-api
+│   └── dpg
+│       └── [id]
+│           └── route.js
+├── user
+│   └── profile.js
+components
+├── Footer.jsx
+├── Header.jsx
+models
+├── Booking.jsx
+├── Multi.jsx
+pages
+├── About
+│   └── page.jsx
+├── admin
+│   └── Navbar.jsx
+config
+├── mongoose.jsx
+styles
+├── Categories.module.css
+├── findpg.module.css
+.env.local
+.eslintrc.json
+.gitignore
+jsconfig.json
+next.config.mjs
+package-lock.json
+package.json
+README.md
 
 **User and Admin Panels**
 -------------------------
