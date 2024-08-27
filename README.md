@@ -47,10 +47,9 @@ Open your browser and navigate to http://localhost:3000 to see the project in ac
 The project follows a modular architecture, with separate folders for components, pages, public assets, and tests. Here's a brief overview of the project structure:
 
 ### Folders
-
-* **Dream-PG
-* **public 📂
-* **uploads
+Dream-PG
+public 📂
+uploads
 a2.jpg
 a3.jpeg
 ... (static images)
