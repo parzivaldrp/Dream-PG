@@ -47,33 +47,34 @@ Open your browser and navigate to http://localhost:3000 to see the project in ac
 The project follows a modular architecture, with separate folders for components, pages, public assets, and tests. Here's a brief overview of the project structure:
 
 ### Folders
-public: 📂 Contains static assets that are served directly by the web server.
 
-  src: 📂 Contains the application code, including components, pages, and APIs.
-
-    app: 📂 Contains the application logic, including components, pages, and APIs.
-
-      api: 📂 Contains the API routes for the application.
-
-        admin-api: 📂 Contains the admin API routes.
-
-    component: 📂 Contains reusable UI components used throughout the project.
-
-    models: 📂 Contains the data models used in the application.
-
-    pages: 📂 Contains the Next.js pages that make up the application.
-
-      admin: 👮 Contains the pages and components that make up the admin panel.
-
-        multi: 📂 Contains the multi-form submission feature.
-
-          Allforms: 📂 Imports and displays all forms.
-
-    config: 📂 Contains configuration files for the application.
-
-  styles: 📂 Contains CSS styles for the application.
-
-  .env.local: 📜 Environment variables for the application.
+    public: 📂 Contains static assets that are served directly by the web server.
+    
+      src: 📂 Contains the application code, including components, pages, and APIs.
+    
+        app: 📂 Contains the application logic, including components, pages, and APIs.
+    
+          api: 📂 Contains the API routes for the application.
+    
+            admin-api: 📂 Contains the admin API routes.
+    
+        component: 📂 Contains reusable UI components used throughout the project.
+    
+        models: 📂 Contains the data models used in the application.
+    
+        pages: 📂 Contains the Next.js pages that make up the application.
+    
+          admin: 👮 Contains the pages and components that make up the admin panel.
+    
+            multi: 📂 Contains the multi-form submission feature.
+    
+              Allforms: 📂 Imports and displays all forms.
+    
+     config: 📂 Contains configuration files for the application.
+    
+     styles: 📂 Contains CSS styles for the application.
+    
+     .env.local: 📜 Environment variables for the application.
 
 
 **User and Admin Panels**
