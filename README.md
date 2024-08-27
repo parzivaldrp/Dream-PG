@@ -32,31 +32,77 @@ npm run dev
 Open your browser and navigate to http://localhost:3000 to see the project in action.
 
 Project Structure
-The project follows a modular architecture, with separate folders for components, pages, public assets, and tests. Here's a brief overview of the project structure:
 
-Folders
-public: 📂 Contains static assets that are served directly by the web server.
-src: 📂 Contains the application code, including components, pages, and APIs.
-app: 📂 Contains the application logic, including components, pages, and APIs.
-api: 📂 Contains the API routes for the application.
-admin-api: 📂 Contains the admin API routes.
-component: 📂 Contains reusable UI components used throughout the project.
-models: 📂 Contains the data models used in the application.
-pages: 📂 Contains the Next.js pages that make up the application.
-admin: 👮 Contains the pages and components that make up the admin panel.
-multi: 📂 Contains the multi-form submission feature.
-Allforms: 📂 Imports and displays all forms.
-user: 👥 Contains the pages and components that make up the user panel.
-config: 📂 Contains configuration files for the application.
-styles: 📂 Contains CSS styles for the application.
-.env.local: 📜 Environment variables for the application.
-.eslintrc.json: 📜 ESLint configuration file.
-.gitignore: 📜 Git ignore file.
-jsconfig.json: 📜 JavaScript configuration file.
-next.config.mjs: 📜 Next.js configuration file.
-package-lock.json: 📜 Package lock file.
-package.json: 📜 Package file.
-README.md: 📜 This README file.
+Verify
+
+Open In Editor
+Edit
+Copy code
+public
+uploads
+... (static assets for uploads)
+a2.jpg
+a3.jpeg
+... (static images)
+vercel.svg (static SVG file)
+
+src
+app
+api
+admin-api
+... (admin API routes)
+dpg
+[id]
+route.js (route for dpg)
+...
+user
+profile.js (user profile page)
+component
+Footer.jsx (footer component)
+Header.jsx (header component)
+... (reusable UI components)
+models
+Booking.jsx (booking model)
+Multi.jsx (multi-form model)
+... (data models)
+pages
+About
+page.jsx (about page)
+admin
+component
+Navbar.jsx (admin navbar component)
+... (admin components)
+pages
+Booking
+page.jsx (booking page)
+...
+editpg
+[id]
+page.jsx (edit PG page)
+...
+user
+page.jsx (user page)
+...
+Bootstrap.jsx (bootstrap file)
+error.jsx (error page)
+... (application pages and components)
+
+config
+mongoose.jsx (mongoose configuration)
+
+styles
+Categories.module.css (categories CSS module)
+findpg.module.css (find PG CSS module)
+... (CSS styles)
+
+.env.local (environment variables)
+.eslintrc.json (ESLint configuration)
+.gitignore (Git ignore file)
+jsconfig.json (JavaScript configuration)
+next.config.mjs (Next.js configuration)
+package-lock.json (package lock file)
+package.json (package file)
+README.md (this README file)
 User and Admin Panels
 The project includes separate user and admin panels, each with its own set of pages and functionality.
 
