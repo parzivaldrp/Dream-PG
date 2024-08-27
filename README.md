@@ -48,34 +48,54 @@ The project follows a modular architecture, with separate folders for components
 
 ### Folders
 Dream-PG public
-├── a2.jpg
-├── a3.jpeg
-├── vercel.svg
+  ==== 
+  a2.jpg
+  a3.jpeg
+  vercel.svg
+
 src
-├── app
-├── api
-├── admin-api
-│   └── dpg
-│       └── [id]
-│           └── route.js
-├── user
-│   └── profile.js
+  ====
+  app
+  api
+  admin-api
+    ====
+    dpg
+      ====
+      [id]
+        ====
+        route.js
+  user
+    ====
+    profile.js
+
 components
-├── Footer.jsx
-├── Header.jsx
+  ====
+  Footer.jsx
+  Header.jsx
+
 models
-├── Booking.jsx
-├── Multi.jsx
+  ====
+  Booking.jsx
+  Multi.jsx
+
 pages
-├── About
-│   └── page.jsx
-├── admin
-│   └── Navbar.jsx
+  ====
+  About
+    ====
+    page.jsx
+  admin
+    ====
+    Navbar.jsx
+
 config
-├── mongoose.jsx
+  ====
+  mongoose.jsx
+
 styles
-├── Categories.module.css
-├── findpg.module.css
+  ====
+  Categories.module.css
+  findpg.module.css
+
 .env.local
 .eslintrc.json
 .gitignore
