@@ -48,9 +48,9 @@ The project follows a modular architecture, with separate folders for components
 
 ### Folders
 
-Dream-PG
-public 📂
-uploads
+* **Dream-PG
+* **public 📂
+* **uploads
 a2.jpg
 a3.jpeg
 ... (static images)
