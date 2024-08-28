@@ -125,6 +125,8 @@ Once the form is submitted, the information is stored in a database and displaye
 
 The project uses a single schema/model for both users and administrators, with an additional isAdmin field that determines whether a user is an administrator or not. This allows for easy management of user and admin roles.
 
+[Live Demo]-(https://dream-pg-eight.vercel.app/) 👉
+
 
 
   
