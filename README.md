@@ -9,12 +9,11 @@ Dream PG is a comprehensive online booking system that aims to revolutionize the
 **Key Features**
 ---------------
 
-* **Streamlined booking process** with real-time availability updates
-* **Personalized recommendations** based on user preferences and browsing history
-* **Comprehensive admin dashboard** for managing rooms, bookings, and users
-* **Advanced search and filtering options** for customers
-* **Group bookings and event planning features**
-* **Integration with external calendars and loyalty programs**
+*Multi-form submission system for detailed PG information, utilizing state management to pass data from one form to another*
+*Separate user and admin panels with distinct functionality*
+*User panel for PG management with features for viewing, searching, and booking PGs*
+*Admin panel for PG and user management with features for adding, editing, and deleting PGs, as well as managing user accounts*
+*Real-time updates for PG availability and booking status*
 
 **Technical Details**
 -------------------
