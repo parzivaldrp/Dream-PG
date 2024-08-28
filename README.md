@@ -65,17 +65,17 @@ The project follows a modular architecture, with separate folders for components
     
         models: 📂 Contains the data models used in the application.
     
-        pages: 👥 Contains the Next.js pages that make up the application, including the user  panel layout.
+        pages: 👥 Contains the Next.js pages that make up the application, including the user panel layout.
     
-          admin: 👮 Contains the pages and components that make up the admin panel.
+          admin: 👮 Contains the pages and components that make up the admin panel, including a admin panel layout.
     
             multi: 📂 Contains the multi-form submission feature.
     
               Allforms: 📂 Imports and displays all forms.
     
-     config: 📂 Contains configuration files for the application.
+     config: ⚙️ Contains configuration files for the application, and connects to the database using Mongoose.
     
-     styles: 📂 Contains CSS styles for the application.
+     styles: 💄 Contains CSS styles for the application.
     
      .env.local: 📜 Environment variables for the application.
 
