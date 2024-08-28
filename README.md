@@ -9,15 +9,15 @@ Dream PG is a comprehensive online booking system that aims to revolutionize the
 **Key Features**
 ---------------
 
-*Multi-form submission system for detailed PG information, utilizing state management to pass data from one form to another
+* Multi-form submission system for detailed PG information, utilizing state management to pass data from one form to another
 
-*Separate user and admin panels with distinct functionality
+* Separate user and admin panels with distinct functionality
 
-*User panel for PG management with features for viewing, searching, and booking PGs
+* User panel for PG management with features for viewing, searching, and booking PGs
 
-*Admin panel for PG and user management with features for adding, editing, and deleting PGs, as well as managing user accounts
+* Admin panel for PG and user management with features for adding, editing, and deleting PGs, as well as managing user accounts
 
-*Real-time updates for PG availability and booking status
+* Real-time updates for PG availability and booking status
 
 **Technical Details**
 -------------------
@@ -25,7 +25,6 @@ Dream PG is a comprehensive online booking system that aims to revolutionize the
 * **Front-end:** Next.js
 * **Back-end:** MongoDB
 * **Operating System:** Windows
-* **Programming Languages:** JavaScript, HTML, CSS
 
 **Getting Started**
 -----------------
@@ -42,12 +41,13 @@ npm install
 ### 3. Start the development server:
 
 npm run dev
-Open your browser and navigate to http://localhost:3000 to see the project in action.
+
+### Open your browser and navigate to http://localhost:3000 to see the project in action.
 
 **Project Structure**
 ---------------------
 
-The project follows a modular architecture, with separate folders for components, pages, public assets, and tests. Here's a brief overview of the project structure:
+The project follows a modular architecture, with separate folders for components, pages, public assets, and tests. Here's a brife overview of the project structure:
 
 ### Folders
 
@@ -85,14 +85,8 @@ The project follows a modular architecture, with separate folders for components
 
 The project includes separate user and admin panels, each with its own set of pages and functionality.
 
-### Location of User and Admin Folders
 
-To find the user and admin folders, navigate to `src/app/pages`. Inside this folder, you'll find two subfolders:
-
-* **user**: 👥 Contains the pages and components that make up the user panel.
-* **admin**: 👮 Contains the pages and components that make up the admin panel.
-
-**User Panel**
+**User Panel 👥**
 -------------
 
 The user panel allows users to view and manage PGs. To access the user panel, users can log in with their credentials. Once logged in, users can:
@@ -103,7 +97,7 @@ The user panel allows users to view and manage PGs. To access the user panel, us
 * Book a PG
 
 
-**Admin Panel**
+**Admin Panel 👮**
 -------------
 
 The admin panel allows administrators to manage PGs and user accounts. To access the admin panel, administrators can log in with their credentials. Once logged in, administrators can:
@@ -125,9 +119,12 @@ The project includes a multi-form submission feature that allows administrators 
 
 Once the form is submitted, the information is stored in a database and displayed on the PG details page.
 
-**Contributing**
---------------
 
-We welcome contributions to the project! To get started, take a look at our [contributing guidelines](CONTRIBUTING.md).
+**User and Admin Management**
+---------------------
+
+The project uses a single schema/model for both users and administrators, with an additional isAdmin field that determines whether a user is an administrator or not. This allows for easy management of user and admin roles.
+
+
 
   
