@@ -61,11 +61,11 @@ The project follows a modular architecture, with separate folders for components
     
             admin-api: 📂 Contains the admin API routes.
     
-        component: 📂 Contains reusable UI components used throughout the project.
+        component: 📦 Contains reusable UI components used throughout the project.
     
         models: 📂 Contains the data models used in the application.
     
-        pages: 📂 Contains the Next.js pages that make up the application.
+        pages: 👥 Contains the Next.js pages that make up the application, including the user  panel layout.
     
           admin: 👮 Contains the pages and components that make up the admin panel.
     
