@@ -226,4 +226,3 @@ Built by [Darshan Panchal](https://github.com/parzivaldrp).
 I’m a junior full-stack developer based in Melbourne, Australia, currently building practical projects with **Next.js**, **MongoDB**, **Supabase**, and **AWS**.
 
 I’m looking for junior / entry-level frontend or full-stack developer roles where I can learn from experienced developers and contribute to real products.
-
